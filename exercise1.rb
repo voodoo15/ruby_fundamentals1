@@ -1,4 +1,6 @@
 #Exercise 1
+#Name:  Arnold Redoblado
+#Date:  2016-03-22
 
 puts 2
 puts 3

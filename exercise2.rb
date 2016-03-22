@@ -1,3 +1,7 @@
+#Exercise 2
+#Name:  Arnold Redoblado
+#Date:  2016-03-22
+
 meal_price = 55
 puts "The cost of the meal is:  $#{(meal_price).round(2)}\nThe tip is: $#{(meal_price * 0.15).round(2)}\nThe Total bill is:  $#{((meal_price * 1.13) + (meal_price * 0.15)).round(2)}"
 
