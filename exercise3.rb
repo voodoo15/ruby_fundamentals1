@@ -50,3 +50,43 @@ end
 unless x == 10
   puts "I get printed!"
 end
+
+counter = 1
+
+while counter < 4
+  puts "counter currently at #{counter}."
+  counter += 1
+end
+
+#Commented below so I don't have to keep watching that infinite loop.  Like watching grass grow!
+# while true
+#   puts "I'm an infinite loop!"
+# end
+
+counter = 3
+
+until counter == 0
+  puts "counter currently at #{counter}."
+  counter -= 1
+end
+
+#Commented below so I don't have to keep watching that infinite loop.  Like watching grass grow!
+# until false
+#   puts "I'm an infinite loop!"
+# end
+
+3.times do
+  puts "Chunky bacon!"
+end
+
+3.times { puts "Chunky bacon!" }
+
+one_to_five = (1..5)
+
+one_to_five.each do |num|
+  puts num
+end
+
+one_to_five.each do |num|
+  puts (num**2).to_s
+end
