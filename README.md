@@ -63,7 +63,7 @@ If there are any errors, the output will look something like this
 
 
 
-Exercise 1
+#Exercise 1
 
 Create a file called exercise1.rb and open it in a text editor like Atom. Write this code:
 
@@ -269,7 +269,7 @@ You can also try combining conditional and logical operators like so:
 
 The purpose of boolean logic will become clearer later on when we talk about control structures.
 
-Exercise 2
+#Exercise 2
 
 Create a file called exercise2.rb and in it enter the solution for the four problems below, then check it into github. Try annotating your code by leaving comments (using the # symbol) in the file before each of your answers to the following questions:
 
@@ -519,15 +519,11 @@ end
 # 9
 # 16
 # 25
-Exercise 4
+
+#Exercise 4
 
 Let's do our own Bitmaker Labs version of FizzBuzz, which is the name of a classic job interview coding problem.
 
 Write a program in a file called exercise4.rb that loops over the numbers from 1 to 100. If the number is a multiple of three, output the string "Bit". For multiples of five, output "Maker". For numbers which are multiples of both three and five, output "BitMaker". Otherwise output the number itself.
 
-To solve this problem you will likely need to search the web. Start with the particular aspect of the question you are unsure of, such as "how to check if a number is a multiple of another in ruby". Do use online resources, but do not read or copy an entire solution to the problem. Make sure the code you submit is your own.
-
-As always, don't forget to commit your work as you make progress.
-
-Congrats for making it this far! You're done for today. :)
 
